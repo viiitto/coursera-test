@@ -1,0 +1,80 @@
+html * {
+	font-family: monospace;
+	box-sizing: border-box;
+}
+#asia {
+	background-image: url('https://www.commonwealthfund.org/sites/default/files/styles/countries_hero_desktop/public/country_image_Japan.jpg?h=fcdfd899&itok=YWWi9dFQ'); 
+}
+#europe {
+	background-image: url('https://s17026.pcdn.co/wp-content/uploads/sites/9/2017/04/AdobeStock_83642256.jpeg'); 
+	color: white;
+}
+#africa {
+	background-image: url('https://cdn.audleytravel.com/-/-/79/241097134194091045139158033085044176174110182100.jpg'); 
+	color: white;
+}
+#americas {
+	background-image: url('https://www.andbeyond.com/wp-content/uploads/sites/5/Argentina-Iguazu-Falls-Walking-Tour1.jpg'); 
+	color: white;
+}
+#oceania {
+	background-image: url('https://www.tripsavvy.com/thmb/70hwSSVZ9EQxf86-QFVVpB7N79o=/6048x4032/filters:fill(auto,1)/GettyImages-155392801-59078aa93df78c5456eb3440.jpg'); 
+}
+.continent {
+	height: 500px;
+	background-size: cover;
+	background-attachment: fixed;
+	overflow: auto;
+	background-repeat: no-repeat;
+	opacity: 0.5;
+}
+.continent:hover {
+	opacity: 1;
+}
+.firstparagraph {
+	width: 50%;
+	float: left;
+}
+h1 {
+	font-size: 15px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 85%;
+	margin: 0;
+	width: 150px;
+	height: 50px;
+	background-color: #ffff99;
+}
+h2 {
+	font-size: 70px;
+	margin: 0;
+	padding: 70px 70px 0px 70px;
+}
+ul {
+	font-size: 20px;
+	padding: 0;
+	margin: 30px 70px 70px 70px;
+	text-decoration: none;
+}
+a {
+	border: 4px;
+	color: black;
+	text-decoration: none;
+}
+a.black {
+	color: black;
+}
+a.white {
+	color: white;
+}
+a:hover {
+	font-weight: bold;
+}
+.box {
+	border: 1px solid black;
+}
+body {
+	margin: 0;
+}
