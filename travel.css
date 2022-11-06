@@ -137,9 +137,24 @@ body {
 		font-size: 1.2em;
 	}
 	.footer {
-		margin: 30px;
+		margin: 0;
+	}
+	.contact, .social {
+		width: 50%;
+		float: left;
+		text-align: center;
 	}
 	.firstparagraph {
 		clear: left;
+	}
+	.continent {
+		background-image: none !important;
+		opacity: 1;
+	}
+	#europe, #africa, #americas {
+		background-color: powderblue;
+	}
+	#asia, #oceania {
+		background-color: skyblue;
 	}
 }
