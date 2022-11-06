@@ -1,27 +1,7 @@
 html * {
 	font-family: monospace;
 	box-sizing: border-box;
-}
-@media (min-width: 768px) and (max-width: 1250px) {
-	.eu, .as, .oc, .am, .af, .ot {
-		width: 20%;
-	}
-	#europe {
-    	margin-top: 140px !important;
-	}
-}
-@media (max-width: 850px) {
-	.eu, .as, .oc, .am, .af, .ot {
-	    width: 100%;
-	    font-size: 0.3em;
-	    clear: left;
-	}
-	header {
-    	position: relative !important;
-	}
-	#europe {
-    	margin-top: 260px !important;
-	}
+	overflow: auto;
 }
 #asia {
 	background-image: url('Picture 3.jpg'); 
@@ -126,4 +106,40 @@ a:hover {
 }
 body {
 	margin: 0;
+}
+@media (min-width: 851px) and (max-width: 1250px) {
+	.eu, .as, .oc, .am, .af, .ot {
+		width: 20%;
+	}
+	#europe {
+    	margin-top: 140px;
+	}
+	.oc {
+		clear: left;
+	}
+}
+@media (max-width: 850px) {
+	.eu, .as, .oc, .am, .af, .ot {
+	    width: 100%;
+	    margin: 5px;
+	    font-size: 1em;
+	}
+	#europe {
+		margin-top: 0;
+	}
+	header {
+    	position: relative;
+	}
+	h2 {
+		font-size: 3.5em;
+	}
+	.text {
+		font-size: 1.2em;
+	}
+	.footer {
+		margin: 30px;
+	}
+	.firstparagraph {
+		clear: left;
+	}
 }
