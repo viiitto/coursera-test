@@ -2,20 +2,39 @@ html * {
 	font-family: monospace;
 	box-sizing: border-box;
 }
+@media (min-width: 768px) and (max-width: 1250px) {
+	.eu, .as, .oc, .am, .af, .ot {
+		width: 20%;
+	}
+	#europe {
+    	margin-top: 140px !important;
+	}
+}
+@media (max-width: 850px) {
+	.eu, .as, .oc, .am, .af, .ot {
+	    width: 100%;
+	    font-size: 0.3em;
+	    clear: left;
+	}
+	header {
+    	position: relative !important;
+	}
+	#europe {
+    	margin-top: 260px !important;
+	}
+}
 #asia {
-	background-image: url('https://www.commonwealthfund.org/sites/default/files/styles/countries_hero_desktop/public/country_image_Japan.jpg?h=fcdfd899&itok=YWWi9dFQ'); 
+	background-image: url('Picture 3.jpg'); 
 }
 #europe {
-	background-image: url('https://s17026.pcdn.co/wp-content/uploads/sites/9/2017/04/AdobeStock_83642256.jpeg'); 
-	color: white;
+	background-image: url('Picture 1.jpg'); 
+	margin-top: 110px;
 }
 #africa {
-	background-image: url('https://cdn.audleytravel.com/-/-/79/241097134194091045139158033085044176174110182100.jpg'); 
-	color: white;
+	background-image: url('Picture 4.jpg'); 
 }
 #americas {
-	background-image: url('https://www.andbeyond.com/wp-content/uploads/sites/5/Argentina-Iguazu-Falls-Walking-Tour1.jpg'); 
-	color: white;
+	background-image: url('Picture 2.jpg'); 
 }
 #oceania {
 	background-image: url('https://www.tripsavvy.com/thmb/70hwSSVZ9EQxf86-QFVVpB7N79o=/6048x4032/filters:fill(auto,1)/GettyImages-155392801-59078aa93df78c5456eb3440.jpg'); 
@@ -35,42 +54,72 @@ html * {
 	width: 50%;
 	float: left;
 }
+.header {
+    font-size: 2em;
+    color: white;
+    float: left;
+    margin: 0px 50px;
+}
+.box {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+}
+.text {
+    font-size: 1.5em;
+    padding: 0px;
+    margin: 30px 70px 70px;
+    text-decoration: none;
+}
+.footer {
+    color: white;
+    font-size: 1.5em;
+    margin: 50px;
+}
+footer {
+    background-color: black;
+    border-width: 30px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+}
+header {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    border-width: 40px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+}
 h1 {
-	font-size: 15px;
-	text-align: center;
-	position: fixed;
-	top: 0;
-	right: 0;
-	left: 85%;
-	margin: 0;
-	width: 150px;
-	height: 50px;
-	background-color: #ffff99;
+	font-size: 1.2em;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    right: 3%;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(192, 192, 192);
+    margin: 0px;
 }
 h2 {
-	font-size: 70px;
+	font-size: 5em;
 	margin: 0;
-	padding: 70px 70px 0px 70px;
-}
-ul {
-	font-size: 20px;
-	padding: 0;
-	margin: 30px 70px 70px 70px;
-	text-decoration: none;
+	padding: 70px 70px 0px;
 }
 a {
-	border: 4px;
 	color: black;
-	text-decoration: none;
-}
-a.black {
-	color: black;
-}
-a.white {
-	color: white;
+    font-weight: bold;
+    border-width: 4px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    text-decoration: none;
 }
 a:hover {
-	font-weight: bold;
+	font-style: italic;
 }
 .box {
 	border: 1px solid black;
