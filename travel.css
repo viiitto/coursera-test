@@ -139,10 +139,8 @@ body {
 	.footer {
 		margin: 0;
 	}
-	.contact, .social {
-		width: 50%;
-		float: left;
-		text-align: center;
+	.social {
+		text-align: right;
 	}
 	.firstparagraph {
 		clear: left;
