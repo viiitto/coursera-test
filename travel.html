@@ -6,23 +6,56 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>My travels</title>
 	<link rel="stylesheet" type="text/css" href="travel.css">
+	<link rel="stylesheet" type="text/css" href="js/jquery-3.6.1.min.js">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
 <body>
-	<script src="js/jquery-3.6.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/script.js"></script>
 <header>
-	<div class ="header eu">Europe</div>
-	<div class ="header as">Asia</div>
-	<div class ="header af">Africa</div>
-	<div class ="header oc">Oceania</div>
-	<div class ="header am">Americas</div>
-	<div class ="header ot">Other</div>
+	<nav id = "header-nav" class = "navbar navbar-default">
+		<div class="container con">
+			<div class="navbar-header">
+				<h1 class = "text-center h">Travel by Vittoria</h1>
+			</div>
+			<button type="button" class="navbar-toggle collapsed" data-bs-toggle = "collapse" data-bs-target = "#collapsable-nav" aria-expanded = "false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+		<div id = "collapsable-nav" class = "collapse navbar-collapse">
+			<ul id = "nav-list" class = "nav navbar-nav navbar-right">
+				<li class="nav-item">
+					<a href="">
+						<br class="hidden-xs">Europe</a>
+				</li>
+				<li class="nav-item">
+					<a href="">
+						<br class="hidden-xs">Asia</a>
+				</li>
+				<li class="nav-item">
+					<a href="">
+						<br class="hidden-xs">Africa</a>
+				</li>
+				<li class="nav-item">
+					<a href="">
+						<br class="hidden-xs">Oceania</a>
+				</li>
+				<li class="nav-item">
+					<a href="">
+						<br class="hidden-xs">Americas</a>
+				</li>
+				<li class="nav-item">
+					<a href="">
+						<br class="hidden-xs">Other</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 </header>
-<h1>Travel by Vittoria</h1>
 <div class = "box">
 	<section id = "europe" class = "continent">
-		<h2>EUROPE</h2>
+		<h2 class = conti>EUROPE</h2>
 		<div class = "text">
 			<a href="norway.html" class = "firstparagraph">Norway</a>
 			<a href="UK.html" class = "firstparagraph">United Kingdom</a>
@@ -44,7 +77,7 @@
 </div>
 <div class = "box">
 	<section id = "asia" class = "continent">
-		<h2>ASIA</h2>
+		<h2 class = conti>ASIA</h2>
 		<div class = "text">
 			<a href="China.html" class = "firstparagraph">China</a>
 			<a href="Singapore.html" class = "firstparagraph">Singapore</a>
@@ -59,7 +92,7 @@
 </div>
 <div class = "box">
 	<section id = "africa" class = "continent">
-		<h2>AFRICA</h2>
+		<h2 class = conti>AFRICA</h2>
 		<div class = "text">
 			<a href="Morocco.html" class = "firstparagraph">Morocco</a>	
 			<a href="Egypt.html" class = "firstparagraph">Egypt</a>	
@@ -70,7 +103,7 @@
 </div>
 <div class = "box">
 	<section id = "oceania" class = "continent">
-		<h2>OCEANIA</h2>
+		<h2 class = conti>OCEANIA</h2>
 		<div class = "text">
 			
 		</div>
@@ -78,7 +111,7 @@
 </div>
 <div class = "box">
 	<section id = "americas" class = "continent">
-		<h2>AMERICAS</h2>
+		<h2 class = conti>AMERICAS</h2>
 		<div class = "text">
 			<a href="USA.html" class = "firstparagraph">USA</a>
 			<a href="Brazil.html" class = "firstparagraph">Brazil</a>	
@@ -91,4 +124,5 @@
 	<span class="footer contact">Contact</span>
 	<span class="footer social">Social Media</span>
 </footer>
+</body>
 </html>
