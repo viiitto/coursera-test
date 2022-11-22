@@ -1,0 +1,58 @@
+* {
+	font-family: monospace;
+	font-size: 100%;
+}
+.box {
+	background-color: gray;
+	border: 1px solid black;
+	margin: 1%;
+	height: 1000px;
+	overflow: auto;
+}
+.viki {
+	font-size: 1.5em;
+}
+.container.margin {
+	margin-right: 0;
+	margin-left: 0;
+}
+#my-row {
+	margin: 0;
+	width: 100%;
+}
+.text {
+	margin: 30px 10px 10px 10px;
+}
+.navbar {
+	background-color: gray;
+	border: 2px solid black;
+}
+#toggler {
+	border: black solid 2px;
+}
+#nav-text a {
+	margin-top: 0px;
+	font-size: 1.2em;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+#nav-text a:hover {
+	color: black;
+	font-style: italic;
+}
+a.foodllc{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	float: left;
+}
+.foodllc h2:hover {
+	font-style: italic;
+}
+ul#nav-text {
+	text-align: center;
+}
+.navbar-collapse {
+	background-color: whitesmoke;
+}
