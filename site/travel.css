@@ -5,20 +5,53 @@ html * {
 	font-size: 16px;
 }
 #asia {
-	background-image: url('images/Picture 3.jpg'); 
+	background-image: url('Picture 3.jpg'); 
 }
 #europe {
-	background-image: url('images/Picture 1.jpg'); 
-	margin-top: 80px;
+	background-image: url('Picture 1.jpg'); 
 }
 #africa {
-	background-image: url('images/Picture 4.jpg'); 
+	background-image: url('Picture 4.jpg'); 
 }
 #americas {
-	background-image: url('images/Picture 2.jpg'); 
+	background-image: url('Picture 2.jpg'); 
 }
 #oceania {
 	background-image: url('https://www.tripsavvy.com/thmb/70hwSSVZ9EQxf86-QFVVpB7N79o=/6048x4032/filters:fill(auto,1)/GettyImages-155392801-59078aa93df78c5456eb3440.jpg'); 
+}
+.navbar {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    border: black solid 5px;
+    border-radius: 0;
+    border: 0;
+    height: 80px;
+}
+#my-row {
+	width: 100%;
+	margin: 0;
+}
+.nav-item {
+	margin: 5px;
+}
+#toggler {
+	border: rgb(192, 192, 192) solid 1px;
+	padding-right: 7px;
+	padding-left: 7px;
+}
+#nav-list a {
+	margin-top: 0px;
+	font-size: 1.2em;
+	text-decoration: none;
+	text-align: center;
+	color: gray;
+}
+#nav-list a:hover {
+	font-style: italic;
+}
+ul#nav-list {
+	text-align: center;
 }
 .continent {
 	height: 500px;
@@ -56,6 +89,9 @@ html * {
     margin: 0px;
     color: black;
 }
+.height {
+	height: 80px;
+}
 .text {
     font-size: 1.5em;
     padding: 0px;
@@ -75,29 +111,6 @@ footer {
     border-color: black;
     border-image: initial;
 }
-#header-nav {
-    background-color: black;
-    position: fixed;
-    width: 100%;
-    border-style: solid;
-    border-color: black;
-    border-radius: 0;
-    border: 0;
-    height: 80px;
-}
-.navbar-brand a:hover, .navbar-brand a:focus {
-	text-decoration: none;
-}
-#nav-list {
-	margin-top: 0px;
-}
-#navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-	border: 1px black black;
-}
-.navbar-header button.navbar-toggle {
-	clear: both;
-	margin-top: -50px;
-}
 .conti {
 	font-size: 5em;
 	margin: 0;
@@ -108,18 +121,25 @@ footer {
 	font-style: italic;
 	color: black;
 }
-body {
-	margin: 0;
-}
-@media (max-width: 765px) {
+@media (max-width: 575px) {
 	#europe {
 		height: 600px;
+		border-top: none;
 	}
-	.navbar {
-		height: 100px;
+	.height {
+		background-color: black;
+	}
+	.navbar-collapse {
+		background-color: black;
+		margin-top: 80px;
+		margin-bottom: 0px;
+	}
+	.navbar-collapse .height {
+		height: 0px;
 	}
 	.conti {
 		font-size: 3.5em;
+		padding: 70px 70px 0px;
 	}
 	.text {
 		font-size: 1.2em;
